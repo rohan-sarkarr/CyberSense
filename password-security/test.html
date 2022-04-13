@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Pop-up Box type | Confirm Box
+    </title>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>GeeksforGeeks</h1>
+
+    <h3>Confirm Box</h3>
+
+    <button onclick="geekConfirm()">
+          Click here for Confirm box
+        </button>
+
+    <p id="geek"></p>
+
+
+    <!-- Confirm box function -->
+    <script>
+        function geekConfirm() {
+            var x;
+            if (confirm("xyz") == true) {
+                x = "OK pressed!";
+            } else {
+                x = "Cancel!";
+            }
+            document.getElementById("geek").innerHTML = x;
+        }
+    </script>
+
+</body>
+
+</html>

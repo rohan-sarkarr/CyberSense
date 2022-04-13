@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Phishing </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- Swiper -->
+    <!--1-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.2rem; top:-10px;'>
+                    <h3> An email from your boss asks for the name, address, and credit card information of the company’s top clients. The email says it’s urgent and to please reply right away. You should reply right away. True or False?</h3>
+
+
+                    <div id='block-11' style='padding: 10px;'>
+                        <label for='option-11' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-11' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                True
+              </label>
+
+                    </div>
+
+
+                    <div id='block-12' style='padding: 10px;'>
+                        <label for='option-12' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6' id='option-12' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                False</label>
+
+                    </div>
+                    <button type='button' onclick='displayAnswer1()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(70px)'>Submit</button>
+                </div>
+                <div class="popup" id="popup1">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer1()'>&times;</div>
+                        <h4 id="helper1"></h4>
+                        <p style="font-size: 20px; "> False, it may be a phishing attempt. And if you share the information, it could end up in the hands of scammers. Check it out first and confirm whether the request was really from your boss.
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--2-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.5rem; top:-10px;'>
+                    <h3> If you fall prey to a phishing scam, what should you do to dilute the damage?
+                    </h3>
+
+
+                    <div id='block-21' style='padding: 10px;'>
+                        <label for='option-21' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-21' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Delete the phishing email.
+                
+                
+                </label>
+
+
+
+                    </div>
+
+
+                    <div id='block-22' style='padding: 10px;'>
+                        <label for='option-22' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6' id='option-22' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Unplug the computer. 
+                </label>
+
+                    </div>
+
+
+                    <div id='block-23' style='padding: 10px;'>
+                        <label for='option-23' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='1/3' id='option-23' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Change any compromised passwords.
+               </label>
+
+                    </div>
+
+
+                    <div id='block-24' style='padding: 10px;'>
+                        <label for='option-24' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='1/6' id='option-24' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Uninstall the email application.</label>
+
+                    </div>
+
+                    <button type='button' onclick='displayAnswer2()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+                </div>
+                <div class="popup" id="popup2">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer2()'>&times;</div>
+                        <h4 id="helper2"></h4>
+                        <p style="font-size: 20px; ">To limit the damage you should immediately change any compromised passwords and disconnect from the network any computer or device that could be infected with malware because of the phishing attack.
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--3-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 1.5rem; top:-8px'>
+                    <h3> Select the Phishing schemes that apply to the following email: From: no_reply@sbibank.com Subject: Account Status Attention SBI Bank Customer, Due to a recent security check on your account, we require you to confirm your details.
+                        Failure to do so within 24 hours will lead to account suspension. Sorry for the inconvenience.
+
+                    </h3>
+                    <p style="color:rgb(12, 175, 250)"><u>Click here to confirm your account</u></p>
+                    <p>Regards<br> SBI Bank Online Customer Service<br> This email has been sent by SBI Bank.</p>
+
+
+
+                    <div id='block-31' style='padding: 10px;'>
+                        <label for='option-31' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6/24' id='option-31' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Generic greeting & link to email
+
+
+              </label>
+
+                    </div>
+
+
+                    <div id='block-32' style='padding: 10px;'>
+                        <label for='option-32' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6' id='option-32' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Sense of urgency & spelling errors
+                </label>
+
+                    </div>
+                    <div id='block-33' style='padding: 10px;'>
+                        <label for='option-33' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6' id='option-33' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                
+                 Need to verify account info.
+                </label>
+
+                    </div>
+                    <div id='block-34' style='padding: 10px;'>
+                        <label for='option-34' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6' id='option-34' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                
+                ALL of the previous choices are in the email.</label>
+
+                    </div>
+                    <button type='button' onclick='displayAnswer3()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(40px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup3">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer3()'>&times;</div>
+                        <h4 id="helper3"></h4>
+                        <p style="font-size: 20px; ">All are correct. Phishing emails often create a fake sense of urgency to make the customer reply to the email faster. They also make spelling errors. They may attach malicious links/documents and ask for your account information.
+
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--4-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.0rem; top:-8px'>
+                    <h3> When visiting your favorite website, a pop-up appears that reads "You have won a free Apple iPhone!" What should you do?
+
+                    </h3>
+
+
+                    <div id='block-41' style='padding: 10px;'>
+                        <label for='option-41' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-41' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Click the pop-up, enter your information and claim the prize.
+
+
+
+              </label>
+
+                    </div>
+                    <div id='block-42' style='padding: 10px;'>
+                        <label for='option-42' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-42' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Share the link with all your friends and family so that they too can get free stuff.
+              
+                        </label>
+
+                    </div>
+                    <div id='block-43' style='padding: 10px;'>
+                        <label for='option-43' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-43' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Do not click the pop-up - close it, and if possible, report it. 
+              </label>
+
+                    </div>
+
+
+
+                    <button type='button' onclick='displayAnswer4()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup4">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer4()'>&times;</div>
+                        <h4 id="helper4"></h4>
+                        <p style="font-size: 20px; "> Report it as a phishing scam and delete it. In this scheme, scammers send out a bulk text message claiming that you have won a prize or your bank account has been compromised.
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--5-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 1.7rem; top:-8px'>
+                    <h3> You receive a text message warning you that your bank account has been suspended. If says that you must click on the link in the SMS and update your credentials within the next 24 hours. You should:
+                    </h3>
+
+
+                    <div id='block-51' style='padding: 10px;'>
+                        <label for='option-51' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6/24' id='option-51' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Reply to the text to confirm that you really need to renew your password.
+
+
+
+
+              </label>
+
+                    </div>
+                    <div id='block-52' style='padding: 10px;'>
+                        <label for='option-52' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6/24' id='option-52' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Pick up the phone and call the vendor, using a phone number you know to be correct, to confirm that the request is real.
+              </label>
+
+                    </div>
+                    <div id='block-53' style='padding: 10px;'>
+                        <label for='option-53' style=' padding: 5px; font-size: 1.5rem;'>
+                <input type='radio' name='option' value='6/24' id='option-53' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Click on the link. If it takes you to the vendor’s website, then you’ll know it’s not a scam.
+              </label>
+
+                    </div>
+
+
+
+                    <button type='button' onclick='displayAnswer5()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup5">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer5()'>&times;</div>
+                        <h4 id="helper5"></h4>
+                        <p style="font-size: 20px; ">Before you click the link, make sure the text is legitimate and the request is real. Otherwise, clicking on the link could download malware or expose bank credentials.</p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--6-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.5rem; top:-8px'>
+                    <h3> Which of the following is NOT a smart way to test a suspicious link?
+                    </h3>
+
+
+                    <div id='block-61' style='padding: 10px;'>
+                        <label for='option-61' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-61' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Use a free online tool to expand a shortened link and view the actual destination URL
+
+
+
+
+
+              </label>
+
+                    </div>
+                    <div id='block-62' style='padding: 10px;'>
+                        <label for='option-62' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-62' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Click on it
+
+
+              </label>
+
+                    </div>
+                    <div id='block-63' style='padding: 10px;'>
+                        <label for='option-63' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-63' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Use a link scanner tool
+
+                
+              </label>
+
+                    </div>
+
+
+                    <div id='block-64' style='padding: 10px;'>
+                        <label for='option-64' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='64' id='option-64' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Hover over the link and view the destination URL that is displayed</label>
+
+                    </div>
+                    <button type='button' onclick='displayAnswer6()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup6">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer6()'>&times;</div>
+                        <h4 id="helper6"></h4>
+                        <p style="font-size: 20px; ">Never click on these links directly. These links can be malicious and harm your security. Such links lead to a fraudulent page made to look like it came from a legitimate company to trick you into providing your login credentials.
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--7-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.0rem; top:-8px'>
+                    <h3> You receive a call from someone claiming to be from “Windows Technical Support” saying they found viruses on your computer and they need to access your computer to fix the problem. What do you do?
+
+
+                    </h3>
+
+
+                    <div id='block-71' style='padding: 10px;'>
+                        <label for='option-71' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-71' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Allow them to connect to the PC
+               
+                 </label>
+
+                    </div>
+                    <div id='block-72' style='padding: 10px;'>
+                        <label for='option-72' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-72' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Ignore the request and drop the call
+               
+              </label>
+
+                    </div>
+                    <div id='block-73' style='padding: 10px;'>
+                        <label for='option-73' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-73' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Take no action
+
+
+              </label>
+
+                    </div>
+
+
+
+                    <button type='button' onclick='displayAnswer7()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup7">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer7()'>&times;</div>
+                        <h4 id="helper7"></h4>
+                        <p style="font-size: 15px; ">Ignore the request and drop the call. This technique is known as voice phishing, or vishing, in which cybercriminals make phone calls purporting to be from legitimate companies to steal personal and company information. If the
+                            user in the above example allows the hacker to connect to their PC, the hacker will be easily able to hack into the user’s system.
+
+                        </p>
+                        <p style="font-size:12px;">Swipe left for next question!</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--8-->
+            <div class="swiper-slide">
+                <div style='transform: scale(0.65); position: relative;  font-size: 2.0rem; top:-8px'>
+                    <h3> What should you do as an employee if you suspect a phishing attack?
+
+
+                    </h3>
+
+
+                    <div id='block-81' style='padding: 10px;'>
+                        <label for='option-81' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-81' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                
+                Report it so the organization can investigate.
+
+
+                         </label>
+
+                    </div>
+                    <div id='block-82' style='padding: 10px;'>
+                        <label for='option-82' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-82' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Ignore it.
+               
+                 
+              </label>
+
+                    </div>
+                    <div id='block-83' style='padding: 10px;'>
+                        <label for='option-83' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6/24' id='option-83' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Open the email and see whether it looks legitimate.
+               
+                  
+
+
+              </label>
+
+                    </div>
+
+
+                    <div id='block-84' style='padding: 10px;'>
+                        <label for='option-84' style=' padding: 5px; font-size: 2rem;'>
+                <input type='radio' name='option' value='6' id='option-84' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                Show your coworkers to see what they think.
+                </label>
+
+                    </div>
+                    <button type='button' onclick='displayAnswer8()' style='width: 150px; height: 60px; border-radius: 3px; font-weight: 700; font-size: 2rem; transform: translateX(180px) translateY(50px)'>Submit</button>
+
+
+
+                </div>
+                <div class="popup" id="popup8">
+                    <div class="overlay"></div>
+                    <div class="content" style='color:#000;'>
+                        <div class="close-btn" onclick='displayAnswer8()'>&times;</div>
+                        <h4 id="helper8"></h4>
+                        <p style="font-size: 20px; ">Report the phish so that it can be investigated. If the phish is real, the company can update email security rules that not only protect the company but its customers as well.
+
+                        </p>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+        function displayAnswer1() {
+            if (document.getElementById('option-11').checked) {
+                document.getElementById("popup1").classList.toggle("active");
+                document.getElementById("helper1").innerHTML = "Wrong answer!";
+                document.getElementById("helper1").style.color = "red";
+
+                /*displayAnswer1()
+                showCorrectAnswer1()*/
+
+            }
+
+            if (document.getElementById('option-12').checked) {
+                document.getElementById("popup1").classList.toggle("active");
+                document.getElementById("helper1").innerHTML = "Correct answer!";
+                document.getElementById("helper1").style.color = "green";
+            }
+        }
+
+        function displayAnswer2() {
+            if (document.getElementById('option-21').checked) {
+                document.getElementById("popup2").classList.toggle("active");
+                document.getElementById("helper2").innerHTML = "Wrong answer!";
+                document.getElementById("helper2").style.color = "red";
+
+
+
+            }
+
+            if (document.getElementById('option-22').checked) {
+                document.getElementById("popup2").classList.toggle("active");
+                document.getElementById("helper2").innerHTML = "Wrong answer!";
+                document.getElementById("helper2").style.color = "red";
+            }
+            if (document.getElementById('option-23').checked) {
+                document.getElementById("popup2").classList.toggle("active");
+                document.getElementById("helper2").innerHTML = "Correct answer!";
+                document.getElementById("helper2").style.color = "green";
+            }
+            if (document.getElementById('option-24').checked) {
+                document.getElementById("popup2").classList.toggle("active");
+                document.getElementById("helper2").innerHTML = "Wrong answer!";
+                document.getElementById("helper2").style.color = "red";
+            }
+        }
+
+        function displayAnswer3() {
+
+            if (document.getElementById('option-31').checked) {
+                document.getElementById("popup3").classList.toggle("active");
+                document.getElementById("helper3").innerHTML = "Wrong answer!";
+                document.getElementById("helper3").style.color = "red";
+
+                /*displayAnswer1()
+                showCorrectAnswer1()*/
+
+            }
+            if (document.getElementById('option-32').checked) {
+                document.getElementById("popup3").classList.toggle("active");
+                document.getElementById("helper3").innerHTML = "Wrong answer!";
+                document.getElementById("helper3").style.color = "red";
+            }
+            if (document.getElementById('option-33').checked) {
+                document.getElementById("popup3").classList.toggle("active");
+                document.getElementById("helper3").innerHTML = "Wrong answer!";
+                document.getElementById("helper3").style.color = "red";
+            }
+
+            if (document.getElementById('option-34').checked) {
+                document.getElementById("popup3").classList.toggle("active");
+                document.getElementById("helper3").innerHTML = "Correct answer!";
+                document.getElementById("helper3").style.color = "green";
+            }
+        }
+
+
+
+        function displayAnswer4() {
+            if (document.getElementById('option-41').checked) {
+                document.getElementById("popup4").classList.toggle("active");
+                document.getElementById("helper4").innerHTML = "Wrong answer!";
+                document.getElementById("helper4").style.color = "red";
+
+
+            }
+            if (document.getElementById('option-42').checked) {
+                document.getElementById("popup4").classList.toggle("active");
+                document.getElementById("helper4").innerHTML = "Wrong answer!";
+                document.getElementById("helper4").style.color = "red";
+            }
+            if (document.getElementById('option-43').checked) {
+                document.getElementById("popup4").classList.toggle("active");
+                document.getElementById("helper4").innerHTML = "Correct answer!";
+                document.getElementById("helper4").style.color = "green";
+            }
+
+        }
+
+
+        function displayAnswer5() {
+            if (document.getElementById('option-51').checked) {
+                document.getElementById("popup5").classList.toggle("active");
+                document.getElementById("helper5").innerHTML = "Wrong answer!";
+                document.getElementById("helper5").style.color = "red";
+
+
+            }
+            if (document.getElementById('option-52').checked) {
+                document.getElementById("popup5").classList.toggle("active");
+                document.getElementById("helper5").innerHTML = "Correct answer!";
+                document.getElementById("helper5").style.color = "green";
+            }
+            if (document.getElementById('option-53').checked) {
+                document.getElementById("popup5").classList.toggle("active");
+                document.getElementById("helper5").innerHTML = "Wrong answer!";
+                document.getElementById("helper5").style.color = "red";
+            }
+
+        }
+
+
+        function displayAnswer6() {
+
+            if (document.getElementById('option-61').checked) {
+                document.getElementById("popup6").classList.toggle("active");
+                document.getElementById("helper6").innerHTML = "Wrong answer!";
+                document.getElementById("helper6").style.color = "red";
+
+                /*displayAnswer1()
+                showCorrectAnswer1()*/
+
+            }
+            if (document.getElementById('option-62').checked) {
+                document.getElementById("popup6").classList.toggle("active");
+                document.getElementById("helper6").innerHTML = "Correct answer!";
+                document.getElementById("helper6").style.color = "green";
+            }
+            if (document.getElementById('option-64').checked) {
+                document.getElementById("popup6").classList.toggle("active");
+                document.getElementById("helper6").innerHTML = "Wrong answer!";
+                document.getElementById("helper6").style.color = "red";
+            }
+            if (document.getElementById('option-63').checked) {
+                document.getElementById("popup6").classList.toggle("active");
+                document.getElementById("helper6").innerHTML = "Wrong answer!";
+                document.getElementById("helper6").style.color = "red";
+            }
+        }
+
+
+        function displayAnswer7() {
+            if (document.getElementById('option-71').checked) {
+                document.getElementById("popup7").classList.toggle("active");
+                document.getElementById("helper7").innerHTML = "Wrong answer!";
+                document.getElementById("helper7").style.color = "red";
+
+                /*displayAnswer1()
+                showCorrectAnswer1()*/
+
+            }
+            if (document.getElementById('option-72').checked) {
+                document.getElementById("popup7").classList.toggle("active");
+                document.getElementById("helper7").innerHTML = "Correct answerW!";
+                document.getElementById("helper7").style.color = "green";
+            }
+            if (document.getElementById('option-73').checked) {
+                document.getElementById("popup7").classList.toggle("active");
+                document.getElementById("helper7").innerHTML = "Wrong answer!";
+                document.getElementById("helper7").style.color = "red";
+            }
+
+
+        }
+
+
+        function displayAnswer8() {
+
+            if (document.getElementById('option-81').checked) {
+                document.getElementById("popup8").classList.toggle("active");
+                document.getElementById("helper8").innerHTML = "Congratulations you are now well versed in Phishing";
+                document.getElementById("helper8").style.color = "green";
+
+                /*displayAnswer1()
+                showCorrectAnswer1()*/
+
+            }
+            if (document.getElementById('option-82').checked) {
+                document.getElementById("popup8").classList.toggle("active");
+                document.getElementById("helper8").innerHTML = "Wrong answer!";
+                document.getElementById("helper8").style.color = "red";
+            }
+            if (document.getElementById('option-83').checked) {
+                document.getElementById("popup8").classList.toggle("active");
+                document.getElementById("helper8").innerHTML = "Wrong answer!";
+                document.getElementById("helper8").style.color = "red";
+            }
+            if (document.getElementById('option-84').checked) {
+                document.getElementById("popup8").classList.toggle("active");
+                document.getElementById("helper8").innerHTML = "Wrong answer!";
+                document.getElementById("helper8").style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

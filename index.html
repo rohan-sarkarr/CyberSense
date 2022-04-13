@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>CyberSense</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css"
+		integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+		integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo">
+				<img src="images/logo4.png">
+			</div>
+			<ul class="menu">
+				<li><a href="#Home">HOME</a></li>
+				<!-- <div class="dropdown">
+					<button class="dropbtn">GAMES
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./credit-card-fraud/credit-card-fraud.html">Credit Card Fraud</a>
+						<a href="./password-security/password-security.html">Password Security</a>
+						<a href="./phishing/phishing.html">Phishing</a>
+						<a href="./social-media/social-media.html">Social Media</a>
+					</div>
+				</div> -->
+				<li><a href="#Game">GAMES</a></li>
+				<li><a href="#">SURVEY</a></li>
+				<li><a
+						href="https://docs.google.com/forms/d/1U0gyS1TNRdxMnKYtZ6g850yBV1UnArLJiKH3LzRWVy8/viewanalytics">STATISTICS</a>
+				</li>
+				<li><a href="#">TEAM</a></li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<!-- home section -->
+	<section class="home" id="Home">
+		<div class="max-width">
+			<div class="text-box">
+				<h1>Cyber<span>Sense</span></h1>
+				<h3>CyberSense is an interactive and gamified platform<br> aimed towards spreading cybersecurity
+					awareness in a user-friendly manner.</h3>
+
+				<h5>Here we have 4 different games with 8 questions each on the specified topic.<br>The quizzes have
+					been designed to help the user understand common cyber security measures and adapt them in their
+					day-to-day working. <br>After a game ends we display more information on the topic, if the users
+					want to know more.</h5>
+
+			</div>
+			<div class="disc">
+				<marquee direction="center">
+					<h4>The intent behind Cyber Sense is to educate the users about the Cyber etiquettes thereby making
+						them more sensible.</h4>
+				</marquee>
+			</div>
+		</div>
+	</section>
+	<section class="game" id="Game">
+		<div class="max-width">
+			<div class="mess">
+				<p>Confused which game to opt for?<br>Click on the spin wheel and enjoy the gamified experience!</p>
+			</div>
+			<div id="mainbox" class="mainbox">
+				<div id="box" class="box">
+					<div class="box1">
+						<span class="span1"><b>Phishing </b></span>
+						<span class="span2"><b>Social media security</b></span>
+						<span class="span3"><b>Password security</b></span>
+						<span class="span4"><b>Credit card frauds</b></span>
+					</div>
+					<div class="box2">
+						<span class="span1"><b>Phishing</b></span>
+						<span class="span2"><b>Social media security</b></span>
+						<span class="span3"><b>Password security</b></span>
+						<span class="span4"><b>Credit card frauds</b></span>
+					</div>
+				</div>
+				<button class="spin" onclick="rotateFunction()">SPIN</button>
+			</div>
+		</div>
+
+	</section>
+
+	<script src="script.js"> </script>
+	<script>
+		var $root = $('html, body');
+		$('a').click(function () {
+			$root.animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 800);
+			return false;
+		});
+	</script>
+
+</body>
+
+</html>
