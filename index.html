@@ -3,44 +3,44 @@
 
 <head>
 	<meta charset="utf-8">
-
 	<title>CyberSense</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css"
-		integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-		integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+	<link rel="icon" type="image/png" href="/images/logo4.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"
+		href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
 
 <body>
+
 	<nav class="navbar">
 		<div class="max-width">
 			<div class="logo">
 				<img src="images/logo4.png">
 			</div>
 			<ul class="menu">
-				<li><a href="#Home">HOME</a></li>
-				<!-- <div class="dropdown">
-					<button class="dropbtn">GAMES
-						<i class="fa fa-caret-down"></i>
-					</button>
+				<a href="#Home">HOME</a>
+				<a href="#Game">GAMES</a>
+				<div class="dropdown">
+					<button class="dropbtn">SURVEY</button>
 					<div class="dropdown-content">
-						<a href="./credit-card-fraud/credit-card-fraud.html">Credit Card Fraud</a>
-						<a href="./password-security/password-security.html">Password Security</a>
-						<a href="./phishing/phishing.html">Phishing</a>
-						<a href="./social-media/social-media.html">Social Media</a>
+						<a target="__blank"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSc3kjhvY32kQNxm4vlLqQXkQei5lROTQLIlD24dEcDywC-8ug/viewform">TAKE
+							SURVEY!</a>
+						<hr>
+						<a target="__blank"
+							href="https://docs.google.com/forms/d/1U0gyS1TNRdxMnKYtZ6g850yBV1UnArLJiKH3LzRWVy8/viewanalytics">RESPONSES</a>
 					</div>
-				</div> -->
-				<li><a href="#Game">GAMES</a></li>
-				<li><a href="#">SURVEY</a></li>
-				<li><a
-						href="https://docs.google.com/forms/d/1U0gyS1TNRdxMnKYtZ6g850yBV1UnArLJiKH3LzRWVy8/viewanalytics">STATISTICS</a>
-				</li>
-				<li><a href="#">TEAM</a></li>
+
+				</div>
+				<a href="#Statistics">STATISTICS</a>
+				<a href="#Team">TEAM</a>
 
 			</ul>
 		</div>
@@ -61,50 +61,206 @@
 
 			</div>
 			<div class="disc">
-				<marquee direction="center">
+				<marquee direction="left">
 					<h4>The intent behind Cyber Sense is to educate the users about the Cyber etiquettes thereby making
 						them more sensible.</h4>
 				</marquee>
 			</div>
 		</div>
 	</section>
+
 	<section class="game" id="Game">
 		<div class="max-width">
-			<div class="mess">
-				<p>Confused which game to opt for?<br>Click on the spin wheel and enjoy the gamified experience!</p>
+			<h2 class="title">Enjoy the gamified experience!</h2>
+			<div class="row">
+				<div class="work-col">
+					<img src="images/phishing.png" style="width: 100%">
+					<a href="phishing.html">
+						<div class="layer">
+							<h3>PHISHING</h3>
+							<!-- <p>>Utilized exceptional writing, editing and proofreading skills to produce engaging and error-free content. Wrote and edited high-quality content and visually impactful programs under deadline pressure with exciting, captivating and authentic approach.</p> -->
+						</div>
+					</a>
+				</div>
+				<div class="work-col">
+					<img src="images/pass_sec.png" style="width: 100%">
+					<a href="password-security.html">
+						<div class="layer">
+							<h3>PASSWORD SECURITY</h3>
+							<!-- 	 					<p>A System that seeks to predict or filter preferences according to the user's choice</p>
+ -->
+						</div>
+					</a>
+				</div>
+				<div class="work-col">
+					<img src="images/credit_card.jpg" style="width: 100%">
+					<a href="credit-card-fraud.html">
+						<div class="layer">
+							<h3>CREDIT CARD FRAUDS</h3>
+							<!-- <p>Depicting the drumset by placing blocks similar to the elements of an actual drumset. When the respective colour object comes into the scope of that particular block the sound of that element is played </p> -->
+						</div>
+					</a>
+				</div>
+				<div class="work-col">
+					<img src="images/sms.png" style="width: 100%">
+					<a href="social-media.html">
+						<div class="layer">
+							<h3>SOCIAL MEDIA SECURITY</h3>
+							<!-- <p>Depicting the drumset by placing blocks similar to the elements of an actual drumset. When the respective colour object comes into the scope of that particular block the sound of that element is played </p> -->
+						</div>
+					</a>
+				</div>
 			</div>
-			<div id="mainbox" class="mainbox">
-				<div id="box" class="box">
-					<div class="box1">
-						<span class="span1"><b>Phishing </b></span>
-						<span class="span2"><b>Social media security</b></span>
-						<span class="span3"><b>Password security</b></span>
-						<span class="span4"><b>Credit card frauds</b></span>
-					</div>
-					<div class="box2">
-						<span class="span1"><b>Phishing</b></span>
-						<span class="span2"><b>Social media security</b></span>
-						<span class="span3"><b>Password security</b></span>
-						<span class="span4"><b>Credit card frauds</b></span>
+		</div>
+	</section>
+
+	<section class="stats" id="Statistics">
+		<div class="max-width">
+			<h2 class="title">Statistics</h2>
+			<div class="row">
+				<div class="stats-col">
+					<a href=""><img src="images/phishing.png" style="width: 100%"></a>
+					<div class="layer1">
+						<h3>PHISHING</h3>
+						<!-- <p>>Utilized exceptional writing, editing and proofreading skills to produce engaging and error-free content. Wrote and edited high-quality content and visually impactful programs under deadline pressure with exciting, captivating and authentic approach.</p> -->
 					</div>
 				</div>
-				<button class="spin" onclick="rotateFunction()">SPIN</button>
+				<div class="stats-col">
+					<a href=""><img src="images/pass_sec.png" style="width: 100%"></a>
+					<div class="layer1">
+						<h3>PASSWORD SECURITY</h3>
+						<!-- 	 					<p>A System that seeks to predict or filter preferences according to the user's choice</p>
+ -->
+					</div>
+				</div>
+				<div class="stats-col">
+					<a href=""><img src="images/credit_card.jpg" style="width: 100%"></a>
+					<div class="layer1">
+						<h3>CREDIT CARD FRAUDS</h3>
+						<!-- <p>Depicting the drumset by placing blocks similar to the elements of an actual drumset. When the respective colour object comes into the scope of that particular block the sound of that element is played </p> -->
+					</div>
+				</div>
+				<div class="stats-col">
+					<a href=""><img src="images/sms.png" style="width: 100%"></a>
+					<div class="layer1">
+						<h3>SOCIAL MEDIA SECURITY</h3>
+						<!-- <p>Depicting the drumset by placing blocks similar to the elements of an actual drumset. When the respective colour object comes into the scope of that particular block the sound of that element is played </p> -->
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="team" id="Team">
+		<div class="max-width">
+			<h2 class="title">Team</h2>
+			<div class="carousel owl-carousel">
+				<div class="card">
+					<div class="box">
+						<img src="images/srushti.jpg">
+						<div class="text">Srushti Prashant Shintre</div>
+						<p>Frontend Developer</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/jahnvi.jpg">
+						<div class="text">Jahnvi Khandelwal</div>
+						<p>Frontend Developer</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/rohan.jpg">
+						<div class="text">Rohan De Sarkar</div>
+						<p>Backend Developer</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/aarushi.jpg">
+						<div class="text">Aarushi Koolwal</div>
+						<p>Content Development</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/harshit.png">
+						<div class="text">Harshit Malhotra</div>
+						<p>Content Development</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/sanyam.jpg">
+						<div class="text">Sanyam Jain</div>
+						<p>Content Development</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/nidehy.jpg">
+						<div class="text">Nidhey Shah</div>
+						<p>Ideation</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/harsh.png">
+						<div class="text">Harsh Singh</div>
+						<p>Ideation </p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
 	</section>
+	<footer>
+		<span class="fa fa-copyright"></span> 2022 | Created with ❤️ by Team CyberSense </span>
+	</footer>
 
 	<script src="script.js"> </script>
 	<script>
 		var $root = $('html, body');
 		$('a').click(function () {
 			$root.animate({
-				scrollTop: $($.attr(this, 'href')).offset().top
-			}, 800);
+				scrollTop: $($.attr(this, 'href')).offset().top - 180
+			}, 1000);
 			return false;
 		});
+		$(".carousel").owlCarousel({
+			loop: true,
+			autoplay: true,
+			autoplayTimeout: 4000, //2000ms = 2s;
+			autoplayHoverPause: true,
+		});
+
+
 	</script>
 
 </body>
+
+<script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+
+	// Your web app's Firebase configuration
+	const firebaseConfig = {
+		apiKey: "AIzaSyB3JeOPRDaiw2-bByjWBX5PatmBimxnBik",
+		authDomain: "cybersense-d2e85.firebaseapp.com",
+		projectId: "cybersense-d2e85",
+		storageBucket: "cybersense-d2e85.appspot.com",
+		messagingSenderId: "548309936446",
+		appId: "1:548309936446:web:6981fac6733c6cf8efa46f"
+	};
+
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+</script>
 
 </html>

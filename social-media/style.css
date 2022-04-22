@@ -73,7 +73,7 @@
         left: 0px;
         width: 41vw;
         height: 92vh;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0);
         z-index: 1;
         display: none;
     }
