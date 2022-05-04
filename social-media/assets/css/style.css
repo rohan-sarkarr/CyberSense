@@ -1,0 +1,93 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.head {
+    background-color: rgb(246, 231, 240);
+    margin-top: 3mm;
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+}
+
+.read {
+    text-align: justify;
+    font-size: 0.55cm;
+    font-style: bold;
+    transform: translateX(5px) translateY(35px);
+    box-sizing: content-box;
+}
+
+.quiz {
+    text-align: left;
+    transform: translateX(5px) translateY(20px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background: #4154f1;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #6776f4;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer {
+    background: rgb(246, 231, 240);
+    padding: 0 0 30px 0;
+    font-size: 14px;
+}
+
+.footer .footer-top .footer-links ul a:hover {
+    color: rgb(245, 195, 227);
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #0a0a0b;
+}
+
+.footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #0a0a0b;
+}

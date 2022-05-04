@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/logo4.png">
+    <title>Phishing Statistics</title>
+    <link rel="stylesheet" href="password-security/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>	
+</head>
+<body>
+    <h2 style="text-align: center;">Phishing Game Statistics</h2>
+    <canvas id="myChart" width="400" height="200" style="transform: scale(0.6) translateY(-460px);"></canvas>
+<script>
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Correct', 'Incorrect'],
+        datasets: [{
+            label: '# of Votes',
+            data: [19, 12],
+            backgroundColor: [
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(255, 99, 132, 0.5)',
+                
+            ],
+            borderColor: [
+                'rgb(54, 162, 235)',
+                'rgb(255, 99, 132)',
+            ],
+            borderWidth: 1,
+            hoverOffset: 30,
+        }]
+    },
+ 
+});
+</script>
+</body>
+</html>
